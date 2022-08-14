@@ -66,7 +66,7 @@
 #### Deploying Nginx container on Kubernetes 
 1. Deploying Nginx Container
     ```sh 
-      kubectl run sample-nginx --image=nginx --replicas=2 --port=80 or kubectl create deploy nginx --image=nginx:1.7.8 -- replicas=2
+      kubectl run sample-nginx --image=nginx --replicas=2 --port=80 or kubectl create deploy nginx --image=nginx:1.7.8 --replicas=2
       kubectl get pods
       kubectl get deployments
    ```
